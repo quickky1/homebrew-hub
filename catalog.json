@@ -1,0 +1,758 @@
+[
+  {
+    "id": "fggstore/fgg-xsense",
+    "repo": "FGGstore/FGG-XSense",
+    "name": "FGG-XSense",
+    "author": "FGGstore",
+    "category": "controllers",
+    "description": "Use Xbox controllers on a jailbroken PlayStation 5. Reads GIP gamepads over USB and exposes them as a virtual PlayStation controller.",
+    "license": "GPL-3.0",
+    "release": "1.1",
+    "files": [
+      {
+        "name": "fgg-xsense.elf",
+        "kind": "payload",
+        "size": 112664,
+        "url": "https://github.com/FGGstore/FGG-XSense/releases/download/1.1/fgg-xsense.elf"
+      }
+    ]
+  },
+  {
+    "id": "sub0x00001/padbridge",
+    "repo": "sub0x00001/padbridge",
+    "name": "padbridge",
+    "author": "sub0x00001",
+    "category": "controllers",
+    "description": "Use controllers the PS5 does not accept as extra DualSense pads on a jailbroken PS5 (tested on 13.60): 8BitDo Ultimate 2C, 8BitDo USB Wireless Adapter 2 (DualSense, Switch Pro, GameSir G8...), wired XInput. Rumble in PS4 games, up to 4 pads, settings page.",
+    "license": "GPL-3.0",
+    "release": "v1.3.1",
+    "files": [
+      {
+        "name": "padbridge-1.3.1.elf",
+        "kind": "payload",
+        "size": 176368,
+        "url": "https://github.com/sub0x00001/padbridge/releases/download/v1.3.1/padbridge-1.3.1.elf"
+      },
+      {
+        "name": "padbridge-probe.elf",
+        "kind": "payload",
+        "size": 112128,
+        "url": "https://github.com/sub0x00001/padbridge/releases/download/v1.3.1/padbridge-probe.elf"
+      }
+    ]
+  },
+  {
+    "id": "illusionyy/ps5-fw-spoof",
+    "repo": "illusionyy/ps5-fw-spoof",
+    "name": "ps5-fw-spoof",
+    "author": "illusionyy",
+    "category": "dev",
+    "description": "Patch PS4 SDK + PS5 Update version in kernel data to `99.99` without hardcoded offsets.",
+    "license": "Apache-2.0",
+    "release": "26616621599",
+    "files": [
+      {
+        "name": "ps5-fw-spoof.elf",
+        "kind": "payload",
+        "size": 115296,
+        "url": "https://github.com/illusionyy/ps5-fw-spoof/releases/download/26616621599/ps5-fw-spoof.elf"
+      }
+    ]
+  },
+  {
+    "id": "ps5-payload-dev/klogsrv",
+    "repo": "ps5-payload-dev/klogsrv",
+    "name": "klogsrv",
+    "author": "ps5-payload-dev",
+    "category": "dev",
+    "description": "A socket server for jailbroken PS4s and PS5s that redirects /dev/klog to sockets connected on port 3232",
+    "license": "GPL-3.0",
+    "release": "v0.9",
+    "files": [
+      {
+        "name": "klogsrv-ps5.elf",
+        "kind": "payload",
+        "size": 136016,
+        "url": "https://github.com/ps5-payload-dev/klogsrv/releases/download/v0.9/klogsrv-ps5.elf"
+      }
+    ]
+  },
+  {
+    "id": "earthonion/garlic-worker",
+    "repo": "earthonion/garlic-worker",
+    "name": "garlic-worker",
+    "author": "earthonion",
+    "category": "dumps",
+    "description": "Help decrypt, encrypt, and resign PS4/PS5 saves",
+    "license": "GPL-3.0",
+    "release": "latest",
+    "files": [
+      {
+        "name": "garlic-worker-ps5.elf",
+        "kind": "payload",
+        "size": 172216,
+        "url": "https://github.com/earthonion/garlic-worker/releases/download/latest/garlic-worker-ps5.elf"
+      }
+    ]
+  },
+  {
+    "id": "echostretch/dump_installer",
+    "repo": "EchoStretch/dump_installer",
+    "name": "Homebrew Dump Installer",
+    "author": "EchoStretch",
+    "category": "dumps",
+    "description": "",
+    "license": null,
+    "release": "1.07",
+    "files": [
+      {
+        "name": "dump_installer.zip",
+        "kind": "archive-payload",
+        "size": 2762623,
+        "url": "https://github.com/EchoStretch/dump_installer/releases/download/1.07/dump_installer.zip"
+      }
+    ]
+  },
+  {
+    "id": "echostretch/dump_runner",
+    "repo": "EchoStretch/dump_runner",
+    "name": "Homebrew Dump Runner",
+    "author": "EchoStretch",
+    "category": "dumps",
+    "description": "",
+    "license": null,
+    "release": "v1.02",
+    "files": [
+      {
+        "name": "dump_runner.zip",
+        "kind": "archive-payload",
+        "size": 54194,
+        "url": "https://github.com/EchoStretch/dump_runner/releases/download/v1.02/dump_runner.zip"
+      }
+    ]
+  },
+  {
+    "id": "gasb07/ps4mount",
+    "repo": "gasb07/ps4mount",
+    "name": "PS4Mount",
+    "author": "gasb07",
+    "category": "dumps",
+    "description": "Allows for PKG games on USB external devices to mount on jailbroken PS5s without installing on internal storage or PS5 formatted USB storage",
+    "license": "GPL-3.0",
+    "release": "v0.7.0",
+    "files": [
+      {
+        "name": "ps4mount.elf",
+        "kind": "payload",
+        "size": 1542624,
+        "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.0/ps4mount.elf"
+      }
+    ]
+  },
+  {
+    "id": "knutwurst/ps5-patchdl",
+    "repo": "knutwurst/ps5-patchdl",
+    "name": "PatchDL",
+    "author": "knutwurst",
+    "category": "dumps",
+    "description": "Official updates for your PS5 and PS4 games, from any browser. PatchDL runs on the PS5, finds the newest update for every installed game, downloads it with parallel connections and resume, and installs it on the console. Web UI for phone, laptop and TV, plus a home-screen tile. Runs on firmware 1.00",
+    "license": "GPL-3.0",
+    "release": "v0.3.4",
+    "files": [
+      {
+        "name": "patchdl_0.3.4.elf",
+        "kind": "payload",
+        "size": 10347416,
+        "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.4/patchdl_0.3.4.elf"
+      },
+      {
+        "name": "PatchDL_v0.3.4.zip",
+        "kind": "archive-payload",
+        "size": 4072747,
+        "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.4/PatchDL_v0.3.4.zip"
+      }
+    ]
+  },
+  {
+    "id": "n0llptr/playstation-5-save-mounter",
+    "repo": "n0llptr/Playstation-5-Save-Mounter",
+    "name": "Playstation 5 Save Mounter 2.0.1",
+    "author": "n0llptr",
+    "category": "dumps",
+    "description": "",
+    "license": "GPL-3.0",
+    "release": "v2.0.1",
+    "files": [
+      {
+        "name": "save-mounter.zip",
+        "kind": "archive-payload",
+        "size": 1200091,
+        "url": "https://github.com/n0llptr/Playstation-5-Save-Mounter/releases/download/v2.0.1/save-mounter.zip"
+      }
+    ]
+  },
+  {
+    "id": "stonedmodder/savemnt-offset-dumper",
+    "repo": "StonedModder/savemnt-offset-dumper",
+    "name": "savemnt-offset-dumper",
+    "author": "StonedModder",
+    "category": "dumps",
+    "description": "payload for the PlayStation 5 that resolves a set of firmware-specific offsets",
+    "license": null,
+    "release": "1.0.0",
+    "files": [
+      {
+        "name": "savemnt-offset-dumper.elf",
+        "kind": "payload",
+        "size": 143080,
+        "url": "https://github.com/StonedModder/savemnt-offset-dumper/releases/download/1.0.0/savemnt-offset-dumper.elf"
+      }
+    ]
+  },
+  {
+    "id": "brinootk/castation",
+    "repo": "BrinooTk/castation",
+    "name": "Castation",
+    "author": "BrinooTk",
+    "category": "emulators",
+    "description": "A Dreamcast emulator that runs natively on a jailbroken PlayStation 5, built on the Flycast core.",
+    "license": "GPL-3.0",
+    "release": "v0.4.0",
+    "files": [
+      {
+        "name": "castation-0.4.0.zip",
+        "kind": "archive-payload",
+        "size": 4420283,
+        "url": "https://github.com/BrinooTk/castation/releases/download/v0.4.0/castation-0.4.0.zip"
+      }
+    ]
+  },
+  {
+    "id": "mpereiraesaa/prospero-win",
+    "repo": "mpereiraesaa/prospero-win",
+    "name": "Prospero Win",
+    "author": "mpereiraesaa",
+    "category": "emulators",
+    "description": "Windows compatibility runtime for native PlayStation 5 homebrew.",
+    "license": "LGPL-2.1",
+    "release": "v0.2.0",
+    "files": [
+      {
+        "name": "prospero-win-v0.2.0.zip",
+        "kind": "app",
+        "size": 147168457,
+        "url": "https://github.com/mpereiraesaa/prospero-win/releases/download/v0.2.0/prospero-win-v0.2.0.zip"
+      }
+    ]
+  },
+  {
+    "id": "barisyild/airpsx",
+    "repo": "barisyild/airpsx",
+    "name": "AirPSX",
+    "author": "barisyild",
+    "category": "files",
+    "description": "Remote management software for Jailbroken PlayStation 4/5",
+    "license": "GPL-3.0",
+    "release": "0.19",
+    "files": [
+      {
+        "name": "airpsx.elf",
+        "kind": "payload",
+        "size": 15694464,
+        "url": "https://github.com/barisyild/airpsx/releases/download/0.19/airpsx.elf"
+      },
+      {
+        "name": "airpsx.zip",
+        "kind": "archive-payload",
+        "size": 5562798,
+        "url": "https://github.com/barisyild/airpsx/releases/download/0.19/airpsx.zip"
+      }
+    ]
+  },
+  {
+    "id": "drakmor/ftpsrv",
+    "repo": "drakmor/ftpsrv",
+    "name": "ftpsrv",
+    "author": "drakmor",
+    "category": "files",
+    "description": "A simple FTP server for jailbroken PS4s and PS5s",
+    "license": "GPL-3.0",
+    "release": "1.16-ng-stable",
+    "files": [
+      {
+        "name": "ftpsrv-ps5.elf",
+        "kind": "payload",
+        "size": 230640,
+        "url": "https://github.com/drakmor/ftpsrv/releases/download/1.16-ng-stable/ftpsrv-ps5.elf"
+      }
+    ]
+  },
+  {
+    "id": "loopayeh/pkg-sender",
+    "repo": "Loopayeh/pkg-sender",
+    "name": "PS4 PS5 PKG Sender",
+    "author": "Loopayeh",
+    "category": "files",
+    "description": "PKG Sender \u2014 install PS4/PS5 packages over LAN. Pick games on PC, auto-find the console, queue and install. No USB, no manual IP.",
+    "license": "MIT",
+    "release": "v1.2.9",
+    "files": [
+      {
+        "name": "pkg-receiver.elf",
+        "kind": "payload",
+        "size": 214528,
+        "url": "https://github.com/Loopayeh/pkg-sender/releases/download/v1.2.9/pkg-receiver.elf"
+      }
+    ]
+  },
+  {
+    "id": "ps5-payload-dev/ftpsrv",
+    "repo": "ps5-payload-dev/ftpsrv",
+    "name": "ftpsrv",
+    "author": "ps5-payload-dev",
+    "category": "files",
+    "description": "An FTP server for jailbroken PS4s and PS5s",
+    "license": "GPL-3.0",
+    "release": "v0.21.1",
+    "files": [
+      {
+        "name": "ftpsrv-ps5-install.elf",
+        "kind": "payload",
+        "size": 717272,
+        "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5-install.elf"
+      },
+      {
+        "name": "ftpsrv-ps5.elf",
+        "kind": "payload",
+        "size": 191864,
+        "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5.elf"
+      }
+    ]
+  },
+  {
+    "id": "ps5-payload-dev/gdbsrv",
+    "repo": "ps5-payload-dev/gdbsrv",
+    "name": "gdbsrv",
+    "author": "ps5-payload-dev",
+    "category": "files",
+    "description": "A simple GDB server for jailbroken PS4s and PS5s",
+    "license": "GPL-3.0",
+    "release": "v0.9",
+    "files": [
+      {
+        "name": "gdbsrv-ps5.elf",
+        "kind": "payload",
+        "size": 174248,
+        "url": "https://github.com/ps5-payload-dev/gdbsrv/releases/download/v0.9/gdbsrv-ps5.elf"
+      }
+    ]
+  },
+  {
+    "id": "drakmor/kstuff-lite",
+    "repo": "drakmor/kstuff-lite",
+    "name": "kstuff-lite-dr: What's New",
+    "author": "drakmor",
+    "category": "jailbreak",
+    "description": "",
+    "license": null,
+    "release": "1.2-dr-test2",
+    "files": [
+      {
+        "name": "kstuff.elf",
+        "kind": "payload",
+        "size": 1558040,
+        "url": "https://github.com/drakmor/kstuff-lite/releases/download/1.2-dr-test2/kstuff.elf"
+      }
+    ]
+  },
+  {
+    "id": "echostretch/kstuff",
+    "repo": "EchoStretch/kstuff",
+    "name": "kstuff",
+    "author": "EchoStretch",
+    "category": "jailbreak",
+    "description": "",
+    "license": null,
+    "release": "v1.6.7",
+    "files": [
+      {
+        "name": "kstuff.elf",
+        "kind": "payload",
+        "size": 1550152,
+        "url": "https://github.com/EchoStretch/kstuff/releases/download/v1.6.7/kstuff.elf"
+      }
+    ]
+  },
+  {
+    "id": "echostretch/kstuff-lite",
+    "repo": "EchoStretch/kstuff-lite",
+    "name": "kstuff-lite \u2014 1.11-opt",
+    "author": "EchoStretch",
+    "category": "jailbreak",
+    "description": "",
+    "license": null,
+    "release": "v1.11",
+    "files": [
+      {
+        "name": "kstuff.elf",
+        "kind": "payload",
+        "size": 1737080,
+        "url": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.11/kstuff.elf"
+      }
+    ]
+  },
+  {
+    "id": "echostretch/kstuff-toggle",
+    "repo": "EchoStretch/kstuff-toggle",
+    "name": "Kstuff Toggle",
+    "author": "EchoStretch",
+    "category": "jailbreak",
+    "description": "",
+    "license": null,
+    "release": "0.6",
+    "files": [
+      {
+        "name": "kstuff-toggle.zip",
+        "kind": "archive-payload",
+        "size": 328816,
+        "url": "https://github.com/EchoStretch/kstuff-toggle/releases/download/0.6/kstuff-toggle.zip"
+      }
+    ]
+  },
+  {
+    "id": "etahen/etahen",
+    "repo": "etaHEN/etaHEN",
+    "name": "etaHEN - AIO Homebrew enabler",
+    "author": "etaHEN",
+    "category": "jailbreak",
+    "description": "AIO HEN payload",
+    "license": "GPL-3.0",
+    "release": "2.5B",
+    "files": [
+      {
+        "name": "etaHEN-2.5B.bin",
+        "kind": "payload",
+        "size": 4678728,
+        "url": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin"
+      }
+    ]
+  },
+  {
+    "id": "michele-m-media/hyperhen",
+    "repo": "Michele-M-Media/HYPERHEN",
+    "name": "Features",
+    "author": "Michele-M-Media",
+    "category": "jailbreak",
+    "description": "",
+    "license": "GPL-3.0",
+    "release": "HYPERHEN_V0_9_2",
+    "files": [
+      {
+        "name": "HyperHEN-v0.9.2.elf",
+        "kind": "payload",
+        "size": 6279504,
+        "url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf"
+      }
+    ]
+  },
+  {
+    "id": "michele-m-media/pizza-hen",
+    "repo": "Michele-M-Media/PIZZA-HEN",
+    "name": "PIZZA HEN v2.00",
+    "author": "Michele-M-Media",
+    "category": "jailbreak",
+    "description": "",
+    "license": "GPL-3.0",
+    "release": "v2.00",
+    "files": [
+      {
+        "name": "PIZZA-HEN-v2.00.elf",
+        "kind": "payload",
+        "size": 62376400,
+        "url": "https://github.com/Michele-M-Media/PIZZA-HEN/releases/download/v2.00/PIZZA-HEN-v2.00.elf"
+      }
+    ]
+  },
+  {
+    "id": "ps3120/onionhen-kernel-log-plugin",
+    "repo": "ps3120/onionHEN-kernel-log-plugin",
+    "name": "onionHEN kernel log plugin",
+    "author": "ps3120",
+    "category": "jailbreak",
+    "description": "",
+    "license": null,
+    "release": "1.00",
+    "files": [
+      {
+        "name": "KLOG00001.elf",
+        "kind": "payload",
+        "size": 263712,
+        "url": "https://github.com/ps3120/onionHEN-kernel-log-plugin/releases/download/1.00/KLOG00001.elf"
+      }
+    ]
+  },
+  {
+    "id": "ps4macedo/instalador-host-psm-poop2jb",
+    "repo": "ps4macedo/instalador-host-psm-poop2jb",
+    "name": "instalador host psm poop2jb",
+    "author": "ps4macedo",
+    "category": "jailbreak",
+    "description": "",
+    "license": null,
+    "release": "v1.2.0",
+    "files": [
+      {
+        "name": "Host-PSM-pooP2JB-v1.2.0-instala-pldmgr.elf",
+        "kind": "payload",
+        "size": 2409808,
+        "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr.elf"
+      },
+      {
+        "name": "Host-PSM-pooP2JB-v1.2.0-instala-onionhen.elf",
+        "kind": "payload",
+        "size": 5686608,
+        "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen.elf"
+      },
+      {
+        "name": "Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en.elf",
+        "kind": "payload",
+        "size": 2409808,
+        "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en.elf"
+      },
+      {
+        "name": "Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en.elf",
+        "kind": "payload",
+        "size": 5686608,
+        "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en.elf"
+      }
+    ]
+  },
+  {
+    "id": "soonniicc/kstuff-a53",
+    "repo": "Soonniicc/kstuff-a53",
+    "name": "kstuff + A53/PPR + BackPork",
+    "author": "Soonniicc",
+    "category": "jailbreak",
+    "description": "Integra\u00e7\u00e3o nativa kstuff-lite + A53/PPR +backport em um \u00fanico ELF, direto no C\u00f3digo-fonte, do Kstuff cr\u00e9ditos e compila\u00e7\u00e3o documentados.",
+    "license": "GPL-3.0",
+    "release": "1.4.2BETA",
+    "files": [
+      {
+        "name": "kstuff-1.4.2beta.elf",
+        "kind": "payload",
+        "size": 1818624,
+        "url": "https://github.com/Soonniicc/kstuff-a53/releases/download/1.4.2BETA/kstuff-1.4.2beta.elf"
+      }
+    ]
+  },
+  {
+    "id": "thecriicom/omega-dashboard",
+    "repo": "TheCriicom/omega-dashboard",
+    "name": "Omega",
+    "author": "TheCriicom",
+    "category": "jailbreak",
+    "description": "Open-source replacement Home for homebrew-enabled consoles: open-source homebrew Store, customization, music and radio, phone remote, party chat, 27 languages. No piracy: no games, no game catalogues, no connection with Overdrive. Client (C/SDL2) + self-hostable server (Node.js).",
+    "license": "GPL-3.0",
+    "release": "v2026.10.16.1",
+    "files": [
+      {
+        "name": "omega-installer.elf",
+        "kind": "payload",
+        "size": 216400,
+        "url": "https://github.com/TheCriicom/omega-dashboard/releases/download/v2026.10.16.1/omega-installer.elf"
+      },
+      {
+        "name": "omega-2026.10.16.1.zip",
+        "kind": "archive-payload",
+        "size": 16156080,
+        "url": "https://github.com/TheCriicom/omega-dashboard/releases/download/v2026.10.16.1/omega-2026.10.16.1.zip"
+      }
+    ]
+  },
+  {
+    "id": "thatguykalvin/prosperotv",
+    "repo": "ThatGuyKalvin/ProsperoTV",
+    "name": "ProsperoTV",
+    "author": "ThatGuyKalvin",
+    "category": "media",
+    "description": "Native IPTV client for PlayStation 5 homebrew with an offline-first iptv-org catalog and hardware-accelerated H.264, HEVC, and VP9 playback.",
+    "license": "GPL-3.0",
+    "release": "01.000.090",
+    "files": [
+      {
+        "name": "PPSA99003.zip",
+        "kind": "app",
+        "size": 42353289,
+        "url": "https://github.com/ThatGuyKalvin/ProsperoTV/releases/download/01.000.090/PPSA99003.zip"
+      }
+    ]
+  },
+  {
+    "id": "bornaradusin/emby5",
+    "repo": "bornaradusin/Emby5",
+    "name": "Emby5",
+    "author": "bornaradusin",
+    "category": "media",
+    "description": "Native Emby client for PlayStation 5",
+    "license": "GPL-3.0",
+    "release": "1.2.9",
+    "files": [
+      {
+        "name": "Emby5-1.2.9.zip",
+        "kind": "app",
+        "size": 29103252,
+        "url": "https://github.com/bornaradusin/Emby5/releases/download/1.2.9/Emby5-1.2.9.zip"
+      }
+    ]
+  },
+  {
+    "id": "mounirhero/ps-play",
+    "repo": "MounirHero/PS-Play",
+    "name": "PS Play 2.1",
+    "author": "MounirHero",
+    "category": "media",
+    "description": "",
+    "license": "GPL-3.0",
+    "release": "2.1",
+    "files": [
+      {
+        "name": "PSPlay-2.1.elf",
+        "kind": "payload",
+        "size": 32294128,
+        "url": "https://github.com/MounirHero/PS-Play/releases/download/2.1/PSPlay-2.1.elf"
+      }
+    ]
+  },
+  {
+    "id": "aydencharles/kylin-core-release",
+    "repo": "aydencharles/kylin-core-release",
+    "name": "Features",
+    "author": "aydencharles",
+    "category": "mods",
+    "description": "kylin-core-release",
+    "license": "MIT",
+    "release": "v2.0.0-community-lite",
+    "files": [
+      {
+        "name": "kylin-core.elf",
+        "kind": "payload",
+        "size": 4999968,
+        "url": "https://github.com/aydencharles/kylin-core-release/releases/download/v2.0.0-community-lite/kylin-core.elf"
+      }
+    ]
+  },
+  {
+    "id": "porhe911/common-fps-for-ps5",
+    "repo": "porhe911/Common-FPS-for-PS5",
+    "name": "Common FPS for PS5 v1.2.3",
+    "author": "porhe911",
+    "category": "mods",
+    "description": "Common FPS for PS5 v1.0.0 First public stable release. Universal real-time FPS overlay for PS4 and PS5 games on PS5. This release includes both a standalone ELF and an etaHEN plugin.",
+    "license": "GPL-3.0",
+    "release": "v1.2.3",
+    "files": [
+      {
+        "name": "Common_FPS_PS5_v1.2.3.elf",
+        "kind": "payload",
+        "size": 1322000,
+        "url": "https://github.com/porhe911/Common-FPS-for-PS5/releases/download/v1.2.3/Common_FPS_PS5_v1.2.3.elf"
+      }
+    ]
+  },
+  {
+    "id": "phoenixx1202/spectrum-library",
+    "repo": "Phoenixx1202/Spectrum-Library",
+    "name": "Spectrum Library",
+    "author": "Phoenixx1202",
+    "category": "stores",
+    "description": "",
+    "license": null,
+    "release": "1.4.8",
+    "files": [
+      {
+        "name": "SpectrumLibrary_1.4.8.elf",
+        "kind": "payload",
+        "size": 15538472,
+        "url": "https://github.com/Phoenixx1202/Spectrum-Library/releases/download/1.4.8/SpectrumLibrary_1.4.8.elf"
+      },
+      {
+        "name": "Spectrum_Library_1.4.8_Native.pkg",
+        "kind": "pkg",
+        "size": 101474102,
+        "url": "https://github.com/Phoenixx1202/Spectrum-Library/releases/download/1.4.8/Spectrum_Library_1.4.8_Native.pkg"
+      }
+    ]
+  },
+  {
+    "id": "drakmor/nanodns",
+    "repo": "drakmor/nanoDNS",
+    "name": "nanoDNS for PS4/PS5",
+    "author": "drakmor",
+    "category": "system",
+    "description": "Playstation 4/5 DNS proxy server",
+    "license": "GPL-3.0",
+    "release": "0.4",
+    "files": [
+      {
+        "name": "nanodns.elf",
+        "kind": "payload",
+        "size": 132352,
+        "url": "https://github.com/drakmor/nanoDNS/releases/download/0.4/nanodns.elf"
+      }
+    ]
+  },
+  {
+    "id": "fggstore/fgg-unpack",
+    "repo": "FGGstore/FGG-Unpack",
+    "name": "FGG Unpack",
+    "author": "FGGstore",
+    "category": "system",
+    "description": "Extract .zip and .7z archives directly on a jailbroken PlayStation 5. Drop an archive in a watched folder and it unpacks in place \u2014 upload 30 GB instead of 150.",
+    "license": "GPL-3.0",
+    "release": "v0.1",
+    "files": [
+      {
+        "name": "fgg-unpack.elf",
+        "kind": "payload",
+        "size": 319656,
+        "url": "https://github.com/FGGstore/FGG-Unpack/releases/download/v0.1/fgg-unpack.elf"
+      }
+    ]
+  },
+  {
+    "id": "stonedmodder/ps-discordpresence",
+    "repo": "StonedModder/PS-DiscordPresence",
+    "name": "PS-DiscordPresence",
+    "author": "StonedModder",
+    "category": "system",
+    "description": "",
+    "license": null,
+    "release": "v0.01",
+    "files": [
+      {
+        "name": "PS-DiscordPresence.elf",
+        "kind": "payload",
+        "size": 192872,
+        "url": "https://github.com/StonedModder/PS-DiscordPresence/releases/download/v0.01/PS-DiscordPresence.elf"
+      }
+    ]
+  },
+  {
+    "id": "svengdk/prospero-multi-tools",
+    "repo": "SvenGDK/Prospero-Multi-Tools",
+    "name": "Prospero Multi Tools",
+    "author": "SvenGDK",
+    "category": "system",
+    "description": "PS5 Homebrew Backup Manager & Toolkit for PS1, PS2, PS3, PS4, PS5, PSP and PS Vita backups.",
+    "license": "GPL-3.0",
+    "release": "v1",
+    "files": [
+      {
+        "name": "ProsperoMultiTools.zip",
+        "kind": "app",
+        "size": 3057587,
+        "url": "https://github.com/SvenGDK/Prospero-Multi-Tools/releases/download/v1/ProsperoMultiTools.zip"
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QuickDevelopers Homebrew Hub</title>
+<style>
+:root{--bg:#080705;--panel:#15130d;--gold:#f5c451;--ink:#f4e6c8;--dim:#a89673}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 50% -10%,rgba(245,196,81,.18),transparent 45%),var(--bg);color:var(--ink);font-family:Segoe UI,system-ui,sans-serif;padding:24px}
+header{max-width:900px;margin:0 auto 18px;display:flex;align-items:center;gap:16px}
+.taco{width:74px;height:74px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-size:34px}
+h1{font-size:22px;margin:0;color:var(--gold);letter-spacing:.06em}
+p{margin:4px 0;color:var(--dim);font-size:13px}
+main{max-width:900px;margin:0 auto}
+input{width:100%;padding:14px;background:var(--panel);border:1px solid #3a2f18;border-radius:10px;color:var(--ink);font-size:16px;margin:10px 0 18px}
+a.card{display:block;padding:14px;margin:10px 0;background:var(--panel);border:1px solid #3a2f18;border-radius:10px;text-decoration:none}
+a.card:hover{border-color:var(--gold)}
+b{color:var(--ink);font-size:15px}
+small{color:var(--dim);font-size:12px}
+.tag{color:var(--gold);font-size:11px;text-transform:uppercase;letter-spacing:.12em}
+</style>
+</head>
+<body>
+<header>
+  <div class="taco">🌮</div>
+  <div>
+    <h1>QUICKDEVELOPERS HOMEBREW HUB</h1>
+    <p>PS4 homebrew · public GitHub downloads only</p>
+  </div>
+</header>
+<main>
+  <input id="q" placeholder="Search homebrew, author, category...">
+  <div id="list">Loading…</div>
+</main>
+<script>
+let DATA = [];
+const list = document.getElementById('list');
+const q = document.getElementById('q');
+function render(){
+  const s = q.value.toLowerCase();
+  const rows = DATA.filter(e => (e.name+' '+(e.author||'')+' '+(e.category||'')+' '+(e.description||'')).toLowerCase().includes(s));
+  list.innerHTML = rows.map(e => {
+    const files = (e.files||[]).filter(f => f.url).map(f => `<a class="card" href="${f.url}" target="_blank" rel="noopener"><b>${f.name}</b> <small>· ${((f.size||0)/1048576).toFixed(1)} MB</small></a>`).join('');
+    return `<div class="tag">${e.category||'homebrew'}</div><h3>${e.name}</h3><small>${e.author||''} · ${e.description||''}</small>${files}`;
+  }).join('') || '<p>No results.</p>';
+}
+fetch('catalog.json').then(r=>r.json()).then(d=>{DATA=d;render()}).catch(e=>{list.textContent='Failed to load catalog.json';});
+q.addEventListener('input', render);
+</script>
+</body>
+</html>
